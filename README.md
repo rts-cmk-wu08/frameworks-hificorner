@@ -52,7 +52,7 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 * Forsidetekst og billeder af produkter
 * Visning af ét eller flere udvalgte produkter (kan være de senest oprettede, et tilfældigt produkt eller andet du finder relevant)
  
-### Produktsider
+### Listevisning af produkter
 Der er flere forskellige funktioner under produkter:
 * Visning af alle produkter inden for en bestemt kategori, uden produkt beskrivelse
 * Visning af alle produkter der hører til en bestemt producent, uden produkt beskrivelse
