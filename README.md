@@ -30,8 +30,6 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 * Design datastrukturer i JSON, og opret json-server (vær opmærksom på at oprette relationer)
 * Programmér funktionaliteten til dataudtræk
 * Byg alle nødvendige fetch, og udskriv data fra fetch.
-* Opret datafiler (JSON)
-* Dokumentér kode og funktionalitet i markdown-filer 
 
 
 ### Sider og indhold
