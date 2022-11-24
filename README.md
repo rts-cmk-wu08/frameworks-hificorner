@@ -1,35 +1,35 @@
 # **Projektopgave HI-FI Corner**
 
 ## Om opgaven
-Denne opgave omhandler opsætning, navigation og hentning af data. Læs hele opgavebeskrivelsen grundigt igennem inden I stiller spørgsmål.
+Denne opgave omhandler opsætning af en react applikation, routing og hentning og præsentation af data i henholdsvis liste- og detaljevisning. Læs hele opgavebeskrivelsen grundigt igennem inden I stiller spørgsmål.
 
 ## Opgavebeskrivelse
 
 I skal fremstille en webapplikation til en HI-FI webbutik, som præsenterer butikkens produkter inddelt efter kategori eller producent. Brugeren af sitet skal nemt og overskueligt kunne finde rundt i de forskellige produkter og kunne fremsøge produkter vha. søgeord. Der er **udelukkende** tale om præsentation af produkterne, man skal ikke kunne handle produkter på siden.
 
-Opgaven varer ca. 2-2.5 uger og omhandler både planlægningen og produktionen af client-side produktet. Opgaven skal planlægges, der skal udarbejdes designanalyse (identifikation af komponenter/moduler). <strike>Der skal udarbejdes user-stories til de enkelte komponenter. I skal samarbejde om projektet digitalt (eksempelvis ved hjælp af GitHub Projects), men det er også et krav, at I undervejs i processen vedligeholder et fysisk kanban-board, som kan bruges fx. ved de daglige scrum-møder.</strike>
+Opgaven varer ca. 3 uger og omhandler både planlægningen og produktionen af client-side produktet. Opgaven skal planlægges, der skal udarbejdes designanalyse (identifikation af komponenter/moduler). Der skal udarbejdes issues til de identificerede komponenter og moduler. I skal i denne proces huske at tage stiling til de enkelte issues kompleksitet, og om et issue muligvis skal opdeles i flere issues. I skal samarbejde om projektet digitalt ved hjælp af GitHub Projects, men det er også et krav, at I undervejs i processen vedligeholder et fysisk kanban-board, som kan bruges ved statusmøder med jeres product-owner (lærer) scrum-møder.
 
-<strike>Der er afsat to dage til den indledende planlægning, hvorefter selve udførelsen af produktet afvikles i to sprints af cirka en uges varighed. I skal afholde et sprint-planning møde med jeres lærer forud for hvert sprint, ligesom der skal være et sprint-review af hvert sprint med jeres lærer.</strike>
+Tag jer god tid til den indledende planlægning.
 
-Det arbejde der forventes udført når projektet er slut, er en funktionel offentlig tilgængelig (github pages eller lignende) client-side som henter data og billeder fra en (eller flere) JSON-datakilde(r). Applikationen skal være sat op, så den matcher det udleverede design.
+Det arbejde der forventes udført når projektet er slut, er en funktionel offentlig tilgængelig (fx. netlify) client-side som henter data og billeder fra en (eller flere) JSON-datakilde(r). Applikationen skal være sat op, så den matcher det udleverede design.
 
 Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt hører til i en kategori og er knyttet til en producent. I skal selv udtænke hvordan datastrukturen stilles op i JSON.
 *(billederne findes i den medfølgende .zip fil, men ved alle de andre produktdata finder I selv på noget, benyt evt https://lipsum.com/feed/html )*
 
 ### Tekniske krav
-**Client-Side** skal løses vha. HTML, CSS og Javascript, som ved hjælp af fetch-api'et henter data fra en eller flere JSON filer. Jeres CSS skal være modulær, og overholde BEM konventionen, <strike>samt principperne i SMACSS.</strike> Produktet kan designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
+**Client-Side** skal løses vha. react, og hente data fra en eller flere JSON filer. Jeres CSS skal være modulær, og overholde BEM konventionen. Produktet kan designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
 
 
 ### Planlægning
 * Layoutanalyse - identificer komponenter/moduler(BEM blokke) i layoutet. <strike>Husk at analysere indefra og ud.</strike>
-* <strike>User stories - skriv user stories til alle komponenter.</strike>
-* <strike>Udarbejd 'definition of done' på de enkelte user-stories. Hvilke kriterier skal komponentet/modulet opfylde for at være færdigt? Hvad skal den som laver review kontrollere om er i orden?</strike>
-* <strike>SPRINT PLANNING (husk at invitere jeres lærer) Prioriter jeres user-stories og estimer dem, i vælger at arbejde med i det første sprint (planning poker)</strike>
+
+* Udarbejd 'definition of done' på de enkelte issues/komponenter/moduler. Hvilke kriterier skal komponentet/modulet opfylde for at være færdigt? Hvad skal den som laver review kontrollere om er i orden?</strike>
+
 
 ### Forslag til arbejdsprocess
-* Opsæt HTML sider med navigation og dummy-data (statisk site)
+* Opsæt applikationen med dummy-data (som et statisk site)
 * Design datastrukturer i JSON. (en test-fil med tre eller fire produkter som kan bruges i udviklingsfasen)
-* Programmér funktioner til dataudtræk
+* Programmér funktionaliteten til dataudtræk
 * Byg alle nødvendige fetch, og udskriv data fra fetch.
 * Opret datafiler (JSON)
 * Dokumentér kode og funktionalitet i markdown-filer 
