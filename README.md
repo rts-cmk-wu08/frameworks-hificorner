@@ -23,7 +23,7 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 ### Planlægning
 * Layoutanalyse - identificer komponenter/moduler(BEM blokke) i layoutet. <strike>Husk at analysere indefra og ud.</strike>
 
-* Udarbejd 'definition of done' på de enkelte issues/komponenter/moduler. Hvilke kriterier skal komponentet/modulet opfylde for at være færdigt? Hvad skal den som laver review kontrollere om er i orden?</strike>
+* Udarbejd 'definition of done' på de enkelte issues/komponenter/moduler. Hvilke kriterier skal komponentet/modulet opfylde for at være færdigt? Hvad skal den som laver review kontrollere om er i orden?
 
 
 ### Forslag til arbejdsprocess
@@ -37,10 +37,19 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 
 ### Sider og indhold
 * Forside
-* Brand-liste
-* Shop-kategorier
-* Kategori-liste
-* Enkelt produktvisning
+* Liste visning af produkter med mulighed sortering
+  - sorteres efter mærke (brand), farve og pris i 3-4 intervaller
+* Detaljevisning af et enkelt produkt
+* Sammenligning af flere produkter
+* Kontakt
+* "Our History"
+* FAQ
+* Indkøbskurv
+
+**Ekstra opgaver_**
+* "Checkout flow" (Paymentpage + invoicepage)
+* Login / opret bruger / Brugerprofil / ordrer
+* en simuleret chat funktion
  
 ### Forsiden 
 * Forsidetekst og billeder af produkter
