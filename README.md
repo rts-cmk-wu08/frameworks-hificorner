@@ -21,14 +21,13 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 
 
 ### Planlægning
-* Layoutanalyse - identificer komponenter/moduler(BEM blokke) i layoutet. <strike>Husk at analysere indefra og ud.</strike>
-
+* Layoutanalyse - identificer komponenter/moduler i layoutet.
 * Udarbejd 'definition of done' på de enkelte issues/komponenter/moduler. Hvilke kriterier skal komponentet/modulet opfylde for at være færdigt? Hvad skal den som laver review kontrollere om er i orden?
 
 
 ### Forslag til arbejdsprocess
 * Opsæt applikationen med dummy-data (som et statisk site)
-* Design datastrukturer i JSON. (en test-fil med tre eller fire produkter som kan bruges i udviklingsfasen)
+* Design datastrukturer i JSON, og opret json-server (vær opmærksom på at oprette relationer)
 * Programmér funktionaliteten til dataudtræk
 * Byg alle nødvendige fetch, og udskriv data fra fetch.
 * Opret datafiler (JSON)
@@ -62,7 +61,7 @@ Der er flere forskellige funktioner under produkter:
 * Visning af ét produkt ved klik på et produkt fra listerne
 * Visning af produkter efter søgning 
 
-Alle produkter hentes via et "API"(JSON) og udskrives med fetch, alle produkter vises med deres billede.
+Alle data hentes fra en json-server og udskrives ved hjælp af fetch/axios, alle produkter vises med deres billede.
  
 ### Alle sider 
 * Menu 
@@ -70,7 +69,6 @@ Alle produkter hentes via et "API"(JSON) og udskrives med fetch, alle produkter 
 * Footer med kontaktinfo 
 
 ### Github
-* <strike>Projektet opsættes i et GitHub repo - husk at invitere din lærer som collaborator.</strike>
 * Projektet accepteres som en GitHub assignment.
 * Der skal *committes ved væsentlige ændringer eller færdiggørelse af en funktionalitet* - og altid inden fyraften.
 * Alle commit tekster på GitHub skal kort beskrive ændringerne. **Der må ikke skrives ligegyldige beskrivelser!**.
