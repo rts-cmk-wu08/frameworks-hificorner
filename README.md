@@ -34,8 +34,8 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 
 ### Sider og indhold
 * Forside
-* Liste visning af produkter med mulighed sortering
-  - sorteres efter mærke (brand), farve og pris i 3-4 intervaller
+* Liste visning af produkter med mulighed for sortering
+  - sorteres efter produktkategori, mærke (brand), farve og pris i 3-4 intervaller
 * Detaljevisning af et enkelt produkt
 * Sammenligning af flere produkter
 * Kontakt
