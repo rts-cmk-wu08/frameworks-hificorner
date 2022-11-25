@@ -17,7 +17,7 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 *(billederne findes i den medfølgende .zip fil, men ved alle de andre produktdata finder I selv på noget, benyt evt https://lipsum.com/feed/html )*
 
 ### Tekniske krav
-**Client-Side** skal løses vha. react, og hente data fra en eller flere JSON filer. Jeres CSS skal være modulær, og overholde BEM konventionen. Produktet kan designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
+**Client-Side** skal løses vha. react, og hente data fra en ekstern kilde (json-server). Jeres CSS skal være modulær, og I bør overveje brug af navngivningskonventioner som fx BEM. Produktet **kan** designes efter mobile first princippet, men ikke nødvendigvis implementeret til begge medier *(prioriter browser varianten som den primære der produceres)*.
 
 
 ### Planlægning
@@ -56,8 +56,10 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 Der er flere forskellige funktioner under produkter:
 * Visning af alle produkter inden for en bestemt kategori, uden produkt beskrivelse
 * Visning af alle produkter der hører til en bestemt producent, uden produkt beskrivelse
-* Visning af ét produkt ved klik på et produkt fra listerne
-* Visning af produkter efter søgning 
+* Visning af alle produkter i en bestemt farve
+* Visning af alle produkter i et bestemt pris-interval
+* Visning af alle produkter som matcher brugerens søgning 
+* Viderestilling til detaljevisning ved klik på et produkt fra listerne
 
 Alle data hentes fra en json-server og udskrives ved hjælp af fetch/axios, alle produkter vises med deres billede.
  
