@@ -27,15 +27,14 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
 
 ### Forslag til arbejdsprocess
 * Opsæt applikationen med dummy-data (som et statisk site)
-* Design datastrukturer i JSON, og opret json-server (vær opmærksom på at oprette relationer)
+* Design datastrukturer i JSON, og opret json-server (vær opmærksom på muligheden for at oprette relationer)
 * Programmér funktionaliteten til dataudtræk
 * Byg alle nødvendige fetch, og udskriv data fra fetch.
 
 
 ### Sider og indhold
 * Forside
-* Liste visning af produkter med mulighed for sortering
-  - sorteres efter produktkategori, mærke (brand), farve og pris i 3-4 intervaller
+* Liste visning af produkter med mulighed for sortering (se nedenfor)
 * Detaljevisning af et enkelt produkt
 * Sammenligning af flere produkter
 * Kontakt
@@ -50,7 +49,7 @@ Et HI-FI produkt består af et navn, en beskrivelse, en pris, et billede, samt h
  
 ### Forsiden 
 * Forsidetekst og billeder af produkter
-* Visning af ét eller flere udvalgte produkter (kan være de senest oprettede, et tilfældigt produkt eller andet du finder relevant)
+* Visning af ét eller flere udvalgte produkter (kan være de senest oprettede, et tilfældige produkter eller andet I finder relevant)
  
 ### Listevisning af produkter
 Der er flere forskellige funktioner under produkter:
@@ -65,7 +64,7 @@ Alle data hentes fra en json-server og udskrives ved hjælp af fetch/axios, alle
  
 ### Alle sider 
 * Menu 
-* Fritekst-søgefunktion til produkter og producenter (visning på produktsiden) 
+* Fritekst-søgefunktion (visning på produktsiden) 
 * Footer med kontaktinfo 
 
 ### Github
@@ -147,7 +146,7 @@ Brug følgende liste, hvis I er i tvivl om hvilke kategorier de forskellige bill
     * jolida_JD302b.jpg
     * jolida_JD502b.jpg 
  
-## EKSTRAOPGAVE
-Hvis I er hurtigt færdige!
+## EKSTRA-EKSTRAOPGAVE
+Hvis I har mega overskud!
 
-Indsæt reklmebannere på hjemmesiden. Du skal selv beslutte hvor på siden reklamebannere vil passe ind. Find et API på nettet, som lader dig fetche bannere og indsæt vilkårlige bannere på hjemmesiden.
+Indsæt reklmebannere på hjemmesiden. I skal selv beslutte hvor på siden reklamebannere vil passe ind. Find et API på nettet, som lader jer fetche bannere og indsæt vilkårlige bannere på hjemmesiden.
